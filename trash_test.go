@@ -46,10 +46,10 @@ func TestParseDir(t *testing.T) {
 
 func TestListPackages(t *testing.T) {
 	assert := require.New(t)
-	p := listPackages("github.com/rancher/trash")
+	p := listPackages("github.com/AlekSi/trash")
 	logrus.Debug(p)
 	assert.Equal(3, len(p))
-	assert.Contains(p, "github.com/rancher/trash")
-	assert.Contains(p, "github.com/rancher/trash/util")
-	assert.Contains(p, "github.com/rancher/trash/conf")
+	assert.Contains(p, "github.com/AlekSi/trash")
+	assert.Contains(p, "github.com/AlekSi/trash/util")
+	assert.Contains(p, "github.com/AlekSi/trash/conf")
 }

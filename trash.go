@@ -15,8 +15,8 @@ import (
 	"github.com/Sirupsen/logrus"
 	"github.com/urfave/cli"
 
-	"github.com/rancher/trash/conf"
-	"github.com/rancher/trash/util"
+	"github.com/AlekSi/trash/conf"
+	"github.com/AlekSi/trash/util"
 )
 
 var Version string = "v0.3.0-dev"
